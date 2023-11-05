@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css">
+    <title>کافه من</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="header"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-secondary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">منو</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >خانه</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">دسته بندی</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">درباره ما</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">تماس با ما</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="جستجو"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">جستجو</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- -->
+    <div id="carouselExampleCaptions" class="carousel slide pt-3">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="img/slider1.jpg"
+            class="d-block carousel-image shadow"
+            alt="اسلاید اول"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>کافه من: مکانی برای لذت بردن از قهوه و دوستی</h5>
+            <p>
+              به کافه من خوش آمدید، جایی که می‌توانید از بهترین قهوه‌ها و دسرها
+              لذت ببرید و با دوستان خود گپ بزنید.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/slider2.jpg"
+            class="d-block carousel-image shadow"
+            alt="اسلاید دوم"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>کافه من: قهوه‌ای که می‌ارزد</h5>
+            <p>
+              کافه من با انتخاب دقیق دانه‌های قهوه و روش‌های حرفه‌ای دم کردن، به
+              شما تجربه‌ای متفاوت از قهوه می‌دهد.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/slider3.jpg"
+            class="d-block carousel-image shadow"
+            alt="اسلاید سوم"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>کافه من: فضایی گرم و دوستانه</h5>
+            <p>
+              کافه من با طراحی داخلی شیک و مدرن، موسیقی آرام و خدمات عالی، محیطی
+              راحت و خوشایند برای شما فراهم می‌کند.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  -->
+    <div class="container-fluid">
+      <div class="row pt-4">
+        <div class="col-md-6">
+          <img
+            src="img/image1.jpg"
+            alt="عکس اول"
+            class="img-fluid img-height shadow"
+          />
+        </div>
+        <div class="col-md-6">
+          <img
+            src="img/image2.jpg"
+            alt="عکس دوم"
+            class="img-fluid img-height shadow"
+          />
+        </div>
+      </div>
+      <div class="row pt-4">
+        <img
+          src="img/image3.jpg"
+          class="img-fluid shadow"
+          alt="عکس سوم"
+          style="height: 500px; border-radius: 20px"
+        />
+      </div>
+    </div>
+
+    <!--  -->
+    <div class="container-fluid pt-4" dir="rtl">
+      <div class="row">
+        <div class="col-md-2">
+          <img
+            src="img/image1.jpg"
+            alt="عکس اول"
+            class="img-thumbnail img-size"
+            style="width: 200px; height: 200px; object-fit: cover"
+          />
+        </div>
+        <div class="col-md-7">
+          <h3>قهوه چه تاثیراتی بر روی سلامتی دارد؟</h3>
+          <p style="text-align: justify">
+            قهوه یکی از محبوب‌ترین نوشیدنی‌های جهان است که دارای مواد مغذی و
+            آنتی‌اکسیدان‌های مفیدی است. قهوه می‌تواند بر روی سلامتی اثرات مثبت و
+            منفی داشته باشد. برخی از اثرات مثبت قهوه عبارتند از: کاهش خطر
+            بیماری‌های قلبی، دیابت، آلزایمر، پارکینسون و سرطان ، افزایش حافظه،
+            تمرکز و انرژی، کاهش درد و التهاب و بهبود خلق و خو. برخی از اثرات
+            منفی قهوه عبارتند از: افزایش فشار خون، ضربان قلب و کلسترول ، ایجاد
+            اعتیاد، اضطراب و بی‌خوابی ، اختلال در جذب آهن و کلسیم و ایجاد سوء
+            احتضار و سردرد . بنابراین، مصرف معتدل و متعادل قهوه می‌تواند برای
+            سلامتی مفید باشد.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <img
+            src="img/image2.jpg"
+            alt="عکس دوم"
+            class="img-thumbnail img-size"
+            style="width: 200px; height: 200px; object-fit: cover"
+          />
+        </div>
+        <div class="col-md-7">
+          <h3>قهوه چگونه بخشی از فرهنگ جهانی شد؟</h3>
+          <p>
+            قهوه یکی از نوشیدنی‌هایی است که در بسیاری از کشورها و فرهنگ‌های
+            مختلف مصرف می‌شود. قهوه از قرن 15 میلادی در شبه جزیره عربستان شروع
+            به پخت و پز و تجارت شد. سپس در قرن 16 و 17 میلادی به اروپا، آمریکا و
+            آسیا راه یافت. قهوه در هر کشور و فرهنگی به شکل و سلیقه‌ای متفاوت دم
+            می‌شود و نشانه‌ای از هویت، تاریخ، ارزش‌ها و روابط اجتماعی آن‌ها است.
+            قهوه همچنین باعث ایجاد فضاهای عمومی و خصوصی برای گفتگو، کار، هنر،
+            سیاست و تفریح شده است. قهوه امروزه یکی از مهم‌ترین محصولات کشاورزی و
+            صنعتی جهان است که بیش از 2.25 میلیارد فنجان آن روزانه مصرف می‌شود.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <section class="">
+      <footer class="bg-secondary text-white text-center">
+        <div class="container p-4">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <h5 class="text-uppercase">کافه من</h5>
+
+              <p>
+                کافه من یکی از بهترین و قدیمی‌ترین کافه‌های شهر است که با ارائه
+                انواع قهوه‌های خوشمزه و دسرهای شیرین، محیطی دنج و دوستانه برای
+                مشتریان خود فراهم می‌کند. کافه من با داشتن کادری مجرب و مهربان،
+                همواره سعی در ارتقای کیفیت خدمات و رضایتمندی مشتریان دارد. کافه
+                من منتظر حضور گرم شما عزیزان است.
+              </p>
+            </div>
+
+            <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">لینک ها</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="index.html" class="text-white">خانه</a>
+                </li>
+                <li>
+                  <a href="#" class="text-white">دسته بندی ها</a>
+                </li>
+                <li>
+                  <a href="#" class="text-white">درباره ما</a>
+                </li>
+                <li>
+                  <a href="#" class="text-white">تماس با ما</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="text-center p-3"
+          style="background-color: rgba(0, 120, 0, 0.2)"
+        >
+          © 2023 Copyright:
+          <a class="text-white" href="index.html">کافه من</a>
+        </div>
+      </footer>
+    </section>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
